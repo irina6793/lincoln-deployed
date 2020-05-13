@@ -1,0 +1,170 @@
+body{
+  display: flex;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+  background-color: #ccabb4;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: font-family-sans-serif;
+  line-height: line-height-base * font-size-base;
+  font-weight: normal;
+  font-size: font-size-base;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  background-color: #f4502d;
+  font-family: Corbel; 
+  margin-top: 40px;
+}
+
+fieldset {
+  background-color: transparent;
+  max-width:350px;
+  padding:16px;	
+  border: dotted solid;
+  border-color: #009472;
+  border-width: 1px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+   margin: 0 auto;
+}
+
+label {
+
+  width: 150px;
+  text-align: right;
+}
+
+input {
+
+  margin: 2px;
+}
+
+img{
+  border: 0 none;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+}
+
+table{
+  margin: 0;
+  padding: 10px 10px 0;
+  border-width: 3px 0 0 0;
+  font-family: font-family-sans-serif;
+}
+
+table, td{
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+td {
+  line-height: line-height-base * font-size-base;
+  font-size: font-size-base;
+  margin: 0;
+}
+
+.Oval {
+    width: 100px;
+    height: 100px;
+    border: solid 1px #4cb3b7;
+    display: flex;
+}
+
+.Corabelle-Durrad {
+    font-weight: bold;
+    width: 234px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 2px;
+    color: rgb(127, 35, 43);
+  }
+
+.Director {
+    width: 90px;
+    height: 30px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #009399;
+  }
+
+  .Line-2 {
+    width: 290px;
+    height: 1px;
+    border: solid 1px #009399;
+  }
+
+  .Combined-Shape {
+    width: 15px;
+    height: 15px;
+    background-color: #009399;
+  }
+
+  .Number {
+    width: 75px;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: #009399;
+  }
+
+  .Combined-Shape {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    background-color: #009399;
+  }
+
+  .corabellecalldeploy {
+    width: 145px;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: #009399;
+  }
+
+
+  .Group-14 {
+    width: 115px;
+    height: 104px;
+    object-fit: contain;
+  }
+
+  .New-Logo-Copy-9 {
+    width: 57px;
+    height: 47px;
+    object-fit: contain;
+  }
