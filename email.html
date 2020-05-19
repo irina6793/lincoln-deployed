@@ -37,17 +37,17 @@
         <input id = "email" type="email" name="email">
        </div>
        <div class="form-group">
-         <input type="submit" name = "submit" value = "Submit" onClick="submit">
+         <input type="submit" name = "submit" value = "Submit" onClick="complete()">
          <div id="here"></div>
-         <script>
+         <!-- <script>
            document.querySelector('div').addEventListener('click', onClick);
          </script>
            <script>
             var onClick = function(e) {
                   alert('Success');
                  };    
-             </script>
-         <script>
+             </script> -->
+         <!-- <script>
            function submit() {
             e.preventDefault();
             var name = document.getElementById('name').value;
@@ -68,7 +68,7 @@
               return "Too short";
           }
         }
-         </script>
+         </script> -->
         </div>
       </form>
     </fieldset>
@@ -82,27 +82,39 @@
             <td class="description-cell">
              <form name = "form" method="post">
               <table role="presentation">
-                <script language="JavaScript">
-                  function check() {
-                      document.getElementById('display').innerHTML =  document.getElementById("name").value;
+                
+                <script>
+                  var submit = document.getElementById('submit');
+
+                  function complete(){
+                    var name = document.getElementById('name').value;
+                    var position = document.getElementById('position').value;
+                    var number = document.getElementById('number').value;
+                    var email = document.getElementById('email').value;
+
+                    document.getElementById("name").textContent = name;
+
+                    document.getElementById("position").textContent = position;
+                    document.getElementById("number").textContent = number;
+                    document.getElementById("email").textContent = email;
+                   
+                  
+
                   }
-                </script> 
+
+                  function test(){
+                      console.log('test')
+                    }
+
+                </script>
                <tbody>
                 <tr>
-                  <td colspan="2" first-name ="Corabelle" last-name="Durrad" class="Corabelle-Durrad">Corabelle Durrad</td>
-                  <input type="text" name='name' value = "Corabelle" autofocus>
-                  <span id = "ouputName"></span>
-                  <script>
-                    const name = document.querySelector('name').focus()
-                  </script>
+                  <td id='name' name =""  last-name=" " class=" ">First Name:</td>
                 </tr>
                 <tr>
                   <td colspan="2" class="Director">Director</td>
-                  <input type="text" autofocus>
                   <span id = "outputPosition"></span>
-                  <script>
-                    const position = document.querySelector('position').focus()
-                  </script>
+                  
                 </tr>
                 <tr>
                   <td colspan="2" class="Line-2"></td>
@@ -115,25 +127,19 @@
                   <td valign="top" class="Number">
                     123-123-8888
                   </td>
-                  <input type="text" autofocus>
                   <span id="outputNumber"></span>
-                  <script>
-                    const position = document.querySelector('number').focus()
-                  </script>
+                  
                 </tr>
                 <tr>
                   <td valign="top" class="corabellecalldeploy">
                     Corabelle@calldeployed.com
                   </td>
-                  <input type="text" autofocus>
                   <span id="outputEmail"></span>
-                  <script>
-                    const email = document.querySelector('email').focus()
-                  </script>
+                  
                   <img src="img/combined-shape.png" srcset="img/combined-shape@2x.png 2x, img/combined-shape@3x.png 3x"
                       class="Combined-Shape">
                   </tr>
-                  <input type = 'submit' onClick='check(); return false'>
+                  <input type = 'submit' onClick='complete(); return false'>
                 <tr>
                   <td valign="bottom" class="Group-14">
                   </td>
@@ -152,18 +158,18 @@
                   </ul>
                 </td>
 
-                <script>
+                <!-- <script>
                   var submit = document.getElementById('submit');
-                  submit.onclick = function(){
+                  function complete(){
                     var name = document.getElementById('name').value;
                     var position = document.getElementById('position').value;
                     var number = document.getElementById('number').value;
                     var email = document.getElementById('email').value;
 
-                    document.getElementById("outputName").innerText = name;
-                    document.getElementById("outputPosition").innerText = position;
-                    document.getElementById("outputNumber").innerText = number;
-                    document.getElementById("outputEmail").innerText = email;
+                    document.getElementById("name").textContent = name;
+                    document.getElementById("position").textContent = position;
+                    document.getElementById("number").textContent = number;
+                    document.getElementById("email").textContent = email;
 
 
                   }
@@ -217,15 +223,9 @@
                             sendData( {test:'ok'} );
                     } )
                  }
-                 </script>
+                 </script> -->
 
-                 <script>
-                   var submit = document.getElementById('submit');
-
-                   submit.onclick = function(){
-                     var name = document.getElementById('')
-                   }
-                 </script>
+                
                </tbody>
             </form>
           </table>
