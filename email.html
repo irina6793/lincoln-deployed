@@ -37,7 +37,7 @@
         <input id = "email" type="email" name="email">
        </div>
        <div class="form-group">
-         <input type="submit" name = "submit" value = "Submit" onClick="complete()">
+         <input type="submit" name = "submit" value = "Submit" onClick="complete(event)">
          <div id="here"></div>
          <!-- <script>
            document.querySelector('div').addEventListener('click', onClick);
@@ -86,7 +86,8 @@
                 <script>
                   var submit = document.getElementById('submit');
 
-                  function complete(){
+                  function complete(event){
+                    event.preventDefault()
                     var name = document.getElementById('name').value;
                     var position = document.getElementById('position').value;
                     var number = document.getElementById('number').value;
