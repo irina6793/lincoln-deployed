@@ -21,12 +21,12 @@
       <legend>Input Information</legend>
       <form id = "form" onSubmit="submit()">
         <div class = "form-group">
-          <label for ="name">Name </label>
-          <input type = "text" name = "name" id = "name" onkeyup="this.value =this.value.toUpperCase();">
+          <label for ="name">Name</label>
+          <input type = "text" name = "name" id = "name" onkeyup="this.value=this.value.toUpperCase();">
         </div>
        <div class="form-group">
-         <label for ="position">Position </label>
-         <input type = "text" name = "position" id = "position" onkeyup="this.value =this.value.toUpperCase();" >
+         <label for ="position">Position</label>
+         <input type = "text" name = "position" id = "position" onkeyup="this.value=this.value.toUpperCase();" >
        </div>
        <div class="form-group">
         <label for="phone">Telephone Number</label>
@@ -82,40 +82,32 @@
             <td class="description-cell">
              <form name = "form" method="post">
               <table role="presentation">
-                
                 <script>
                   var submit = document.getElementById('submit');
-
                   function complete(event){
+                    
                     event.preventDefault()
                     var name = document.getElementById('name').value;
                     var position = document.getElementById('position').value;
                     var number = document.getElementById('number').value;
                     var email = document.getElementById('email').value;
 
-                    document.getElementById("name").textContent = name;
-
-                    document.getElementById("position").textContent = position;
-                    document.getElementById("number").textContent = number;
-                    document.getElementById("email").textContent = email;
-                   
-                  
-
-                  }
-
-                  function test(){
-                      console.log('test')
-                    }
-
+                    document.getElementById("outputName").textContent = name;
+                    document.getElementById("outputPosition").textContent = position;
+                    document.getElementById("outputNumber").textContent = number;
+                    document.getElementById("outputEmail").textContent = email;
+                   }
                 </script>
+              <table role="presentation">
+
                <tbody>
                 <tr>
-                  <td id='name' name =""  last-name=" " class=" ">First Name:</td>
+                  <td id='name' name="" class="">Name:</td>
+                  <span id = "outputName"></span>
                 </tr>
                 <tr>
                   <td colspan="2" class="Director">Director</td>
                   <span id = "outputPosition"></span>
-                  
                 </tr>
                 <tr>
                   <td colspan="2" class="Line-2"></td>
