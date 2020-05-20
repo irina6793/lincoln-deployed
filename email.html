@@ -39,36 +39,6 @@
        <div class="form-group">
          <input type="submit" name = "submit" value = "Submit" onClick="complete(event)">
          <div id="here"></div>
-         <!-- <script>
-           document.querySelector('div').addEventListener('click', onClick);
-         </script>
-           <script>
-            var onClick = function(e) {
-                  alert('Success');
-                 };    
-             </script> -->
-         <!-- <script>
-           function submit() {
-            e.preventDefault();
-            var name = document.getElementById('name').value;
-            var position = document.getElementById('position').value;
-                document.getElementById("button").addEventListener("click")
-                document.getElementById("name").innerHTML = name + " ";
-                document.getElementById("position").innerHTML = position + " ";
-            if(name == null || name == ""){
-              return "Error, please try again";
-           }else if (name.length <2){
-              return "Error, Name is too short";
-           }else if (name.length >20) {
-               return "Error, Name is too long";
-           }
-             if(position == null || position == "" ){
-               return "Error, please try again";
-            }else if ((position.length <2) || (position.length > 20)){
-              return "Too short";
-          }
-        }
-         </script> -->
         </div>
       </form>
     </fieldset>
@@ -85,11 +55,10 @@
                 <script>
                   var submit = document.getElementById('submit');
                   function complete(event){
-                    
-                    event.preventDefault()
+                    event.preventDefault();
                     var name = document.getElementById('name').value;
                     var position = document.getElementById('position').value;
-                    var number = document.getElementById('number').value;
+                    var number = document.getElementById('phone').value;
                     var email = document.getElementById('email').value;
 
                     document.getElementById("outputName").textContent = name;
@@ -106,11 +75,8 @@
                   <span id = "outputName"></span>
                 </tr>
                 <tr>
-                  <td colspan="2" class="Director">Director</td>
+                  <td id='position' class=" ">Director:</td>
                   <span id = "outputPosition"></span>
-                </tr>
-                <tr>
-                  <td colspan="2" class="Line-2"></td>
                 </tr>
                 <tr>
                    <img src="img/combined-shape.svg"
@@ -121,14 +87,12 @@
                     123-123-8888
                   </td>
                   <span id="outputNumber"></span>
-                  
-                </tr>
+                 </tr>
                 <tr>
                   <td valign="top" class="corabellecalldeploy">
                     Corabelle@calldeployed.com
                   </td>
                   <span id="outputEmail"></span>
-                  
                   <img src="img/combined-shape.png" srcset="img/combined-shape@2x.png 2x, img/combined-shape@3x.png 3x"
                       class="Combined-Shape">
                   </tr>
@@ -137,7 +101,6 @@
                   <td valign="bottom" class="Group-14">
                   </td>
                 </tr>
-                <td colspan="2" class="icons">
                   <ul>
                     <li>
                       <img src="img/new-logo-copy-9.png" srcset="img/new-logo-copy-9@2x.png 2x, img/new-logo-copy-9@3x.png 3x"
@@ -216,7 +179,7 @@
                             sendData( {test:'ok'} );
                     } )
                  }
-                 </script> -->
+                 </script> 
 
                 
                </tbody>
