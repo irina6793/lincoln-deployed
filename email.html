@@ -43,15 +43,32 @@
       </form>
     </fieldset>
     <div class="presentational-container">
-      <table id="info-table" class="table">
+      <table role="presentation">
         <tbody>
           <tr class="outer-row">
-            <td class="Oval">
-              <img class="img-fluid" width="100" height="150" src="data:image/jpeg;base64,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" alt="Image" />
+            <td class="headshot-cell">
+              <img src= "" name= "preview-image" alt="Headshot" />
             </td>
             <td class="description-cell">
-             <form name = "form" method="post">
               <table role="presentation">
+                <tbody>
+                  <tr>
+                    <td id='name' name="" class="">Name:</td>
+                    <span id = "outputName"></span>
+                  </tr>
+                  <tr>
+                    <td id='position' name = '' class=" ">Position:</td>
+                    <span id = "outputPosition"></span>
+                  </tr>
+                  <tr>
+                    <td id="number" name="" class=" ">Telephone Number:</td>
+                    <span id="outputNumber"></span>
+                  </tr>
+                  <tr>
+                    <td id="email" name = '' class=" ">Email: </td>
+                    <span id="outputEmail"></span>
+                  </tr>
+               <form name = "form" method="post">
                 <script>
                   var submit = document.getElementById('submit');
                   function complete(event){
@@ -67,31 +84,14 @@
                     document.getElementById("outputEmail").textContent = email;
                    }
                 </script>
-              <table role="presentation">
-                <tbody>
-                <tr>
-                  <td id='name' name="" class="">Name:</td>
-                  <span id = "outputName"></span>
-                </tr>
-                <tr>
-                  <td id='position' class=" ">Director:</td>
-                  <span id = "outputPosition"></span>
-                </tr>
                 <tr>
                    <img src="img/combined-shape.svg"
                     class="Combined-Shape">
                 </tr>
-                <tr>
-                  <td valign="top" class="Number">
-                    123-123-8888
-                  </td>
-                  <span id="outputNumber"></span>
-                 </tr>
-                <tr>
-                  <td valign="top" class="corabellecalldeploy">
-                    Corabelle@calldeployed.com
-                  </td>
-                  <span id="outputEmail"></span>
+               
+                
+                  
+                  
                   <img src="img/combined-shape.png" srcset="img/combined-shape@2x.png 2x, img/combined-shape@3x.png 3x"
                       class="Combined-Shape">
                   </tr>
