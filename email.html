@@ -114,32 +114,12 @@
                 </td>
 
                 <!--  
-
-                  function check () {
-                    document.getElementById("name").innerHTML = document.form.name.value;
-                    document.getElementById("position").innerHTML = document.form.position.value;
-                    document.getElementById("number").innerHTML = document.form.number.value;
-                    document.getElementById("email").innerHTML = document.form.email.value;
-
-                  }
-                </script>
-                <!-- Submission  -->
-                <script type = 'text/javascript'>
-                  const submitContact = e => {
-                  const name = document.querySelector("name").value;
-                  const position = document.querySelector("position").value;
-                  const number = document.querySelector("number").value;
-                  const email = document.querySelector('email').value;
-                  const button = document.querySelector('button');
-
-                  const data = {
                     name: name,
                     position: position,
                     number: number,
                     email: email
                   }
-
-                  function sendData( data ) {
+                    function sendData( data ) {
                       const XHR = new XMLHttpRequest(),
                             FD  = new FormData();
 
@@ -161,7 +141,7 @@
                             sendData( {test:'ok'} );
                     } )
                  }
-                 </script> 
+                 </script> -->
                </tbody>
             </form>
           </table>
