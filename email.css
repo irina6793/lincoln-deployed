@@ -7,6 +7,20 @@ body{
   background-color: #3cabb4;
 }
 
+.presentational-container{
+  padding: 20px;
+  box-shadow: 2px 2px 8px 4px;
+  background-color: #aaa;
+}
+
+table{
+  background: none;
+  margin: 0;
+  padding: 10px 10px 0;
+  border-width: 3px 0 0 0;
+  font-family: font-family-sans-serif;
+}
+
 h1 {
   padding: 20px;
   text-align: center;
@@ -45,13 +59,6 @@ img{
   line-height: 100%;
   outline: none;
   text-decoration: none;
-}
-
-table{
-  margin: 0;
-  padding: 10px 10px 0;
-  border-width: 3px 0 0 0;
-  font-family: font-family-sans-serif;
 }
 
 table, td{
