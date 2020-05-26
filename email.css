@@ -18,8 +18,9 @@ table{
   margin: 0;
   padding: 10px 10px 0;
   border-width: 3px 0 0 0;
-  font-family: font-family-sans-serif;
-}
+  border-style: solid;
+  border-color: #232C9F;
+ }
 
 h1 {
   padding: 20px;
@@ -54,6 +55,7 @@ input {
 }
 
 img{
+  border-radius: 50%;
   border: 0 none;
   height: auto;
   line-height: 100%;
@@ -72,9 +74,10 @@ td {
   margin: 0;
 }
 
-.Oval {
+.headshot-cell {
+    border-radius: 160%;
     width: 100px;
-    height: 100px;
+    height: 90px;
     border: solid 1px #4cb3b7;
     display: flex;
 }
