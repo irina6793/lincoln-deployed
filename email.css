@@ -5,6 +5,7 @@ body{
   justify-content: center;
   height: 100%;
   background-color: #3cabb4;
+  padding: 0;
 }
 
 .presentational-container{
@@ -75,12 +76,18 @@ td {
 }
 
 .headshot-cell {
-    border-radius: 160%;
-    width: 100px;
-    height: 90px;
-    border: solid 1px #4cb3b7;
+    border-radius: 50%;
+    width: 90%;
+    height: 70px;;
+    border: solid 2px #4cb3b7;
     display: flex;
-}
+    float: left;
+  }
+
+  #name{
+    display: flex;
+  }
+
 
 .Corabelle-Durrad {
     font-weight: bold;
