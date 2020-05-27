@@ -95,7 +95,7 @@ td {
     font-style: normal;
     line-height: 1.23;
     letter-spacing: 2px;
-    color: rgb(127, 35, 43);
+    color: #000a0a;
   }
 
 #outputPosition {
@@ -109,7 +109,7 @@ td {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 2px;
-    color: #009399;
+    color: rgb(54, 238, 238);
   }
 
   .Line-2 {
