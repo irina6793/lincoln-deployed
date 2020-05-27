@@ -45,14 +45,12 @@ fieldset {
 }
 
 label {
-
   width: 150px;
   text-align: right;
 }
 
 input {
-
-  margin: 2px;
+   margin: 2px;
 }
 
 img{
@@ -70,9 +68,16 @@ table, td{
 }
 
 td {
-  line-height: line-height-base * font-size-base;
-  font-size: font-size-base;
+  text-align: center;
   margin: 0;
+}
+
+td span {
+  text-align: left;
+  display:block;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .headshot-cell {
@@ -113,16 +118,11 @@ td {
     color: rgb(54, 238, 238);
   }
 
-  .Line-2 {
+  tr span {
+    text-align: left;
     width: 290px;
     height: 1px;
     border: solid 1px #009399;
-  }
-
-  .Combined-Shape {
-    width: 15px;
-    height: 15px;
-    background-color: #009399;
   }
 
   .Number {
