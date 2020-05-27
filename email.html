@@ -22,11 +22,11 @@
       <form id = "form" onSubmit="submit()">
         <div class = "form-group">
           <label for ="name">Name</label>
-          <input type = "text" name = "name" id = "name" onkeyup="this.value=this.value.toUpperCase();">
+          <input type = "text" name = "name" id = "name">
         </div>
        <div class="form-group">
          <label for ="position">Position</label>
-         <input type = "text" name = "position" id = "position" onkeyup="this.value=this.value.toUpperCase();" >
+         <input type = "text" name = "position" id = "position" >
        </div>
        <div class="form-group">
         <label for="phone">Telephone Number</label>
@@ -49,15 +49,16 @@
             <td class="headshot-cell">
               <img src= "" alt="Headshot" />
             </td>
-               <table role="presentation">
-                <td class="description-cell">
-                  <tr class = "name">
-                    <span id = "outputName"></span><br>
-                  </tr>
-                  <tr>
-                    <span id = "outputPosition"></span><br>
-                  </tr>
-                  <tr>
+            <td class="description-cell">
+              <tr class = "name" style= "text-transform: capitalize;">
+                <span id = "outputName"></span><br>
+              </tr>
+              <tr class= "position" style= "text-transform: capitalize;">
+                <span id = "outputPosition"></span><br>
+              </tr>
+              </td>
+          </tbody>
+              <tr>
                     <span id="outputNumber"></span><br>
                   </tr>
                   <tr>

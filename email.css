@@ -84,12 +84,8 @@ td {
     float: left;
   }
 
-  #name{
-    display: flex;
-  }
-
-
-.Corabelle-Durrad {
+#outputName {
+    text-transform: capitalize;
     font-weight: bold;
     width: 234px;
     height: 32px;
@@ -102,10 +98,11 @@ td {
     color: rgb(127, 35, 43);
   }
 
-.Director {
+#outputPosition {
+    text-transform: capitalize;
     width: 90px;
     height: 30px;
-    font-family: Lato;
+    font-family: Arial;
     font-size: 20px;
     font-weight: 300;
     font-stretch: normal;
