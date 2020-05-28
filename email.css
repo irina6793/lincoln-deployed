@@ -81,16 +81,19 @@ td span {
 }
 
 .headshot-cell {
-    text-align: left;
-    border-radius: 50%;
-    width: 90%;
-    height: 70px;;
     border: solid 2px #4cb3b7;
+    border-radius: 50%;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    width: 50px;
     display: flex;
-    float: left;
+    float: right; 
   }
 
 #outputName {
+    text-align:center;
+    padding: 90px;
     text-transform: capitalize;
     font-weight: bold;
     width: 234px;
@@ -105,6 +108,8 @@ td span {
   }
 
 #outputPosition {
+    text-align:center;
+    padding: 170px;
     text-transform: capitalize;
     width: 90px;
     height: 30px;
