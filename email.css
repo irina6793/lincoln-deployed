@@ -165,7 +165,12 @@ td span {
   }
 
   .New-Logo-Copy-9 {
-    width: 57px;
-    height: 47px;
-    object-fit: contain;
-  }
+    border: solid 2px #4cb3b7;
+    border-radius: 50%;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    width: 50px;
+    display: flex;
+    float: left; 
+   }
