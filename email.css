@@ -174,3 +174,8 @@ td span {
     display: flex;
     float: left; 
    }
+
+   .icon {
+     padding: 10px;
+     text-align: center;
+   }
