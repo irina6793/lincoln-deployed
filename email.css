@@ -9,9 +9,10 @@ body{
 }
 
 .presentational-container{
-  padding: 20px;
+  float: left;
+  padding: 10px;
   box-shadow: 2px 2px 8px 4px;
-  background-color: #aaa;
+  background-color: rgb(250, 244, 244);
 }
 
 table{
@@ -54,6 +55,7 @@ input {
 }
 
 img{
+  height: 20px;
   border-radius: 50%;
   border: 0 none;
   height: auto;
@@ -108,7 +110,7 @@ td span {
   }
 
 #outputPosition {
-    text-align:center;
+    text-align:left;
     padding: 170px;
     text-transform: capitalize;
     width: 90px;
@@ -123,14 +125,7 @@ td span {
     color: rgb(54, 238, 238);
   }
 
-  tr span {
-    text-align: left;
-    width: 290px;
-    height: 1px;
-    border: solid 1px #009399;
-  }
-
-  #outputNumber {
+ #outputNumber {
     text-align:left;
     width: 75px;
     height: 22px;
