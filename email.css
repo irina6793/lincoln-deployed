@@ -14,9 +14,11 @@ body{
   padding: 10px;
   box-shadow: 2px 2px 8px 4px;
   background-color: rgb(250, 244, 244);
+ 
 }
 
 table{
+  width:35%;
   background: none;
   margin: 0;
   padding: 10px 10px 0;
@@ -54,6 +56,7 @@ label {
 }
 
 input {
+  width:35%;
   margin: 2px;
 }
 
@@ -69,19 +72,19 @@ img{
 }
 
 .col{
- 
+  
   border-spacing: 0px;
   border-collapse: collapse;
 }
 
 .number-row {
-
+  width:35%;
   text-align: center;
   margin: 0;
 }
 
 .email-row {
- 
+  width: 35%;
   text-align: left;
   display:block;
   margin: auto;
@@ -181,7 +184,10 @@ img{
    }
 
    .icon-logo-cell {
-     float:left;
+     float:right;
      padding: 10px;
+     padding-right: 55px;
+     padding-bottom: 65px;
      text-align: center;
+     margin:auto;
    }
