@@ -36,7 +36,6 @@ h1 {
 }
 
 fieldset {
- 
   background-color: transparent;
   max-width:350px;
   padding:16px;	
@@ -61,7 +60,6 @@ input {
 }
 
 img{
-  
   height: 20px;
   border-radius: 50%;
   border: 0 none;
@@ -87,10 +85,14 @@ img{
   align-items:left;
   justify-content:center;
   height: 25px;
-  
 }
 
 #features #outputNumber{
+  display:flex;
+  align-items:center;
+}
+
+#features #outputEmail{
   display:flex;
   align-items:center;
 }
@@ -117,7 +119,6 @@ img{
   }
 
 #outputName {
-    
     text-align:center;
     padding: 90px;
     text-transform: capitalize;
@@ -134,7 +135,6 @@ img{
   }
 
 #outputPosition {
-    
     text-align:left;
     padding: 170px;
     text-transform: capitalize;
@@ -197,10 +197,11 @@ img{
    }
 
    .icon-logo-cell {
-     float:right;
+     width: 90%;
+     float:left;
      padding: 10px;
-     padding-right: 55px;
-     padding-bottom: 65px;
+     padding-left: 185px;
+     padding-top: 85px;
      text-align: left;
      margin:auto;
    }
