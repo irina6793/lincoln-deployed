@@ -72,18 +72,18 @@ img{
 }
 
 .col{
-  
-  border-spacing: 0px;
-  border-collapse: collapse;
+   border-spacing: 0px;
 }
 
 .number-row {
+  padding: 5px;
   width:35%;
   text-align: center;
   margin: 0;
 }
 
 .email-row {
+  padding:5px;
   width: 35%;
   text-align: left;
   display:block;
@@ -188,6 +188,6 @@ img{
      padding: 10px;
      padding-right: 55px;
      padding-bottom: 65px;
-     text-align: center;
+     text-align: left;
      margin:auto;
    }
