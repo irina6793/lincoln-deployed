@@ -18,14 +18,13 @@ body{
 }
 
 table{
-  width:35%;
-  background: none;
+  width: 40%;
+  background: rgb(247, 245, 245);
   margin: 0;
-  padding: 10px 10px 0;
+  padding: 20px 10px 0;
   border-width: 3px 0 0 0;
   border-style: solid;
-  border-color: #232C9F;
- }
+}
 
 h1 {
   padding: 20px;
@@ -199,9 +198,7 @@ img{
    .icon-logo-cell {
      width: 90%;
      float:left;
-     padding: 10px;
-     padding-left: 185px;
-     padding-top: 85px;
+     padding-left: 30px;
      text-align: left;
      margin:auto;
    }

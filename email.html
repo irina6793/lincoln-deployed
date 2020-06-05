@@ -43,43 +43,31 @@
         </div>
       </form>
     </fieldset>
-    <div class="col-6">
-      <div class="presentational-container">
-        <div class="row">
-          <div class="headshot-cell col-3">
-            <img src= "" alt="Headshot"  />
-        </div>
-      </div>
-         <div class="name-cell">
-           <div class="name row text-center">
-             <div class="col">
-              <span id = "outputName"></span><br>
-             </div>
-           </div>
-          </div>
-           <div class="position row text-center">
-             <div class="col">
-              <span id = "outputPosition"></span><br>
-             </div>
-           </div>
-           <div class="container">
-             <section id="features">
-              <div class="col">
-                <img src="https://img.icons8.com/fluent/48/000000/phone.png" alt='phone icon' style='float:left' width='30px' height= '30px'>
-              </div>
-              <span id="outputNumber"></span><br>
-              <img src="https://img.icons8.com/nolan/64/email.png" alt ="email icon" style='float:left' height= '30px' width='30px' />
-              <span id="outputEmail"></span><br>
-           </section>
-        </div>
-        <div class="row">
-        <div class="icon-logo-cell">
+    <table>
+      <tr>
+        <td>
+          <img src= "" alt="Headshot"  />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span id = "outputName"></span><br>
+          <span id = "outputPosition"></span><br>
+          <img src="https://img.icons8.com/fluent/48/000000/phone.png" alt='phone icon' style='float:left' width='30px' height= '30px'>
+          <span id="outputNumber"></span><br>
+          <img src="https://img.icons8.com/nolan/64/email.png" alt ="email icon" style='float:left' height= '30px' width='30px' />
+          <span id="outputEmail"></span><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <img src="C:\Users\Irina Sverzhanovskay\Dropbox\Screenshots\Screenshot 2020-06-03 11.07.03.png" 
           class="New-Logo-Copy-9" alt="Lincoln Deployed Logo">
-        </div>
-      </div>
-    </div>
-                <form name = "form" method="post">
+        </td>
+      </tr>
+    </table>
+  
+    <form name = "form" method="post">
                 <script>
                   var submit = document.getElementById('submit');
                   function complete(event){
