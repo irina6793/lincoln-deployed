@@ -1,11 +1,9 @@
 body{
   display: flex;
-  margin: 0;
   align-items: center;
   justify-content: center;
   height: 100%;
   background-color: #3cabb4;
-  padding: 0;
   float:left;
 }
 
@@ -20,8 +18,8 @@ body{
 table{
   width: 40%;
   background: rgb(247, 245, 245);
-  margin: 0;
-  padding: 20px 10px 0;
+  margin: 20px 30px 30px 50px;
+  padding: 80px 50px 10px 10px;
   border: 0;
   
 }
@@ -59,6 +57,7 @@ input {
 }
 
 img{
+  float:left;
   height: 20px;
   border-radius: 50%;
   border: 0 none;
@@ -70,11 +69,12 @@ img{
 
 tr{
    border-spacing: 0px;
-   padding: 50px;
-   margin: 0 auto;
+   padding: 110px 110px 110px 110px;
+   margin: 10px 10px;
 }
 
 td img {
+  float:left;
   max-width: 500px;
   padding: 5px;
   text-align: center;
@@ -82,7 +82,7 @@ td img {
 }
 
 td{
-  padding: 10px 0 30px 0;
+  padding: 0px 50px 50px 50px;
   vertical-align: top;
 }
 
@@ -119,7 +119,6 @@ td{
 
 #outputName {
     text-align:center;
-    padding: 90px;
     text-transform: capitalize;
     font-weight: bold;
     width: 234px;
@@ -131,11 +130,12 @@ td{
     line-height: 1.23;
     letter-spacing: 2px;
     color: #000a0a;
+    margin: 10px 20px 30px 10px;
   }
 
 #outputPosition {
     text-align:left;
-    padding: 170px;
+    margin: 10px 10px 10px 10px;
     text-transform: capitalize;
     width: 90px;
     height: 30px;
@@ -150,6 +150,8 @@ td{
   }
 
  #outputNumber {
+    float:left;
+    margin:20px 70px 10px 10px;
     text-align:left;
     width: 75px;
     height: 22px;
@@ -171,9 +173,9 @@ td{
   }
 
   #outputEmail {
-    float:left;
-    width: 145px;
-    height: 22px;
+    float:right;
+    margin:20px 70px 10px 10px;
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 300;
