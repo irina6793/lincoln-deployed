@@ -18,9 +18,9 @@ body{
 table{
   width: 40%;
   background: rgb(247, 245, 245);
-  margin: 20px 30px 30px 50px;
-  padding: 80px 50px 10px 10px;
-  border: 0;
+  margin: 20px 30px 10px 10px;
+  padding: 20px 30px 10px 10px;
+
   
 }
 
@@ -67,11 +67,7 @@ img{
   text-decoration: none;
 }
 
-tr{
-   border-spacing: 0px;
-   padding: 110px 110px 110px 110px;
-   margin: 10px 10px;
-}
+
 
 td img {
   float:left;
@@ -130,7 +126,7 @@ td{
     line-height: 1.23;
     letter-spacing: 2px;
     color: #000a0a;
-    margin: 10px 20px 30px 10px;
+    margin: 90px 20px 30px 10px;
   }
 
 #outputPosition {
@@ -174,8 +170,8 @@ td{
 
   #outputEmail {
     float:right;
-    margin:20px 70px 10px 10px;
-
+    margin:-40px -130px -120px 30px;
+    align-items: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 300;
