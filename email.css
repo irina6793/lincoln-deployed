@@ -16,12 +16,11 @@ body{
 }
 
 table{
+  height: 60px;
   width: 40%;
   background: rgb(247, 245, 245);
   margin: 20px 30px 10px 10px;
   padding: 20px 30px 10px 10px;
-
-  
 }
 
 h1 {
@@ -57,14 +56,9 @@ input {
 }
 
 img{
-  float:left;
-  height: 20px;
+  float:right;
   border-radius: 50%;
-  border: 0 none;
-  height: auto;
-  line-height: 100%;
-  outline: none;
-  text-decoration: none;
+  
 }
 
 
@@ -103,21 +97,22 @@ td{
 }
 
 .headshot-cell {
+    height: 30px;
     border: solid 2px #4cb3b7;
     border-radius: 50%;
-    padding: 4px;
+    padding: 50px 50px 10x 10px;
     text-align: center;
-    position: absolute;
+    position: relative;
     width: 50px;
     display: flex;
     float: left; 
   }
 
 #outputName {
-    text-align:center;
+    text-align:left;
     text-transform: capitalize;
     font-weight: bold;
-    width: 234px;
+    width: 34px;
     height: 32px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
@@ -183,20 +178,20 @@ td{
   }
 
   .New-Logo-Copy-9 {
-    border: solid 2px #4cb3b7;
-    border-radius: 50%;
-    padding: 4px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
     position: absolute;
     width: 50px;
+    height: 50px;
     display: flex;
     float: left; 
    }
 
    .icon-logo-cell {
-     width: 90%;
+     height: 50px;
+     width: 80px;
      float:left;
-     padding-left: 30px;
+     padding: 50px 50px 10px 10px;
      text-align: left;
      margin:auto;
    }
