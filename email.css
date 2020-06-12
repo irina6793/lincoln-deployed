@@ -192,6 +192,7 @@ td{
      width: 80px;
      float:left;
      padding: 50px 50px 10px 10px;
+     position: relative;
      text-align: left;
      margin:auto;
    }
