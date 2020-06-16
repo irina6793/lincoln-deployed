@@ -65,7 +65,6 @@ img{
 
 td img {
   float:left;
-  max-width: 500px;
   padding: 5px;
   text-align: center;
   margin: 0 auto;
@@ -116,12 +115,9 @@ td{
     height: 32px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
     letter-spacing: 2px;
     color: #000a0a;
-    margin: 90px 20px 30px 10px;
+    margin: 10px 10px 10px 10px;
   }
 
 #outputPosition {
@@ -142,7 +138,7 @@ td{
 
  #outputNumber {
     float:left;
-    margin:20px 70px 10px 10px;
+    margin:10px 10px 10px 10px;
     text-align:left;
     width: 75px;
     height: 22px;
