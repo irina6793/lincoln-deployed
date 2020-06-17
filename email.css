@@ -16,6 +16,7 @@ body{
 
 table{
   background: rgb(247, 245, 245);
+  width: max-content;
 }
 
 h1 {
