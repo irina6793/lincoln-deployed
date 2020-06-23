@@ -70,20 +70,16 @@
                 <img src="https://img.icons8.com/nolan/64/email.png" alt ="email icon" style="padding: 10px 10px 10px 10px" height= '20px' width='20px' />
                 <span id="outputEmail" style="padding: -10px -10px 10px 10px" ></span>
              </td>
-            
-            
-                </table>
-            </td>
-            <td>
-             
-              <img src="C:\Users\Irina Sverzhanovskay\Dropbox\Screenshots\Screenshot 2020-06-03 11.07.03.png" 
-                 class="New-Logo-Copy-9" alt="Lincoln Deployed Logo" width='20px' height= '20px' style="padding: 50px 50px -620px -600px" >
-               </td>
-          </tr>
+          </table>
+        </td>
+          <td>
+           <img src="C:\Users\Irina Sverzhanovskay\Dropbox\Screenshots\Screenshot 2020-06-03 11.07.03.png"  class="New-Logo-Copy-9" 
+               alt="Lincoln Deployed Logo" width='20px' height= '20px' style="padding: 50px 50px -620px -600px" >
+          </td>
+       </tr>
       </table>
   
-
-    <form name = "form" method="post">
+      <form name = "form" method="post">
                 <script>
                   var submit = document.getElementById('submit');
                   function complete(event){
@@ -99,7 +95,22 @@
                     document.getElementById("outputEmail").textContent = email;
                    }
                 </script>
-               </tbody>
+                <script>
+                  function testSubmit(name, position, number, email){
+                    return `${name, position, number, email}`;
+                  }
+                  var submit = document.getElementById('submit');
+                  submit.focus();
+                  submit.select();
+
+                  document.write('outputName').textContent.name;
+                  document.write('outputPosition').textContent.position;
+                  document.write('outputNumber').textContent.number;
+                  document.write('outputEmail').textContent.email;
+
+                </script>
+              
+              </tbody>
             </form>
           </table>
       </div>
