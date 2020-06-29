@@ -96,9 +96,10 @@
                    }
                 </script>
                 <script>
-                  function testSubmit(name, position, number, email){
-                    return `${name, position, number, email}`;
-                  }
+                  // function testSubmit(name, position, number, email){
+                  //   return `$<td>{name}</td>
+                  //           <td>, position, number, email}`;
+                  // }
                   var submit = document.getElementById('submit');
                   submit.focus();
                   submit.select();
@@ -109,7 +110,37 @@
                   document.getElementById('outputEmail').textContent.email;
 
                 </script>
+              <script>
+                function testSubmit(name, position, number, email){
+                return `<table cellpadding="0" cellspacing="0">
+                     <tr>
+                     <td>
+                     <span ${name}  id = "outputName" style="padding: 10px 10px 10px 10px" ></span>
+               </td>
+              </tr>
+              <tr>
+                 <td>
+                  <span ${position} id = "outputPosition" style="padding: 10px 10px 10px 10px" ></span><br>
+               </td>
+            </tr>
+            <tr>
+              <td>
+                 <img src="https://img.icons8.com/fluent/48/000000/phone.png" alt='phone icon' style="padding: 10px 10px 10px 10px"  height= '20px' width='20px'/>
+                 <span ${number} id="outputNumber" style="padding: -10px -10px 10px 10px"></span>
+               </td>  
+              <td>
+                <img src="https://img.icons8.com/nolan/64/email.png" alt ="email icon" style="padding: 10px 10px 10px 10px" height= '20px' width='20px' />
+                <span ${email} id="outputEmail" style="padding: -10px -10px 10px 10px" ></span>
+             </td>
+          </table> `
+
+          testSubmit('irina', 'web developer', '3477567654', 'irina@yahoo.com')
+             console.log('name', 'position', 'email', 'number')
+        }
+              </script>
               
+              
+
               </tbody>
             </form>
           </table>
